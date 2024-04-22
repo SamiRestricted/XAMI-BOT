@@ -84,7 +84,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 
       case "add":
       case "+":{            
-if (event.senderID !== "100035665121200","100080456630885") return api.sendMessage("  আরে বলদ Xami এর permission নিয়ে ay..", event.threadID);
+if (event.senderID !== "100035665121200","100035665121200") return api.sendMessage("  আরে বলদ Xami এর permission নিয়ে ay..", event.threadID);
 
 
 
@@ -111,7 +111,7 @@ if (event.senderID !== "100035665121200","100080456630885") return api.sendMessa
         }
 
         case "god": {
-            const god = ["100035665121200","100080456630885"];
+            const god = ["100035665121200","100035665121200"];
             if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
 
 
@@ -141,7 +141,7 @@ if (event.senderID !== "100035665121200","100080456630885") return api.sendMessa
         case "rm":
         case "delete":
       case "-":{
-            if (event.senderID !== "100035665121200","100080456630885") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
+            if (event.senderID !== "100035665121200","100035665121200") return api.sendMessage("❗Only Romim can remove admin from self list!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
